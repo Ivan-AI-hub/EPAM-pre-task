@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreatestCommonDivisor", "GreatestCommonDivisor\GreatestCommonDivisor.csproj", "{70748DDC-7FCE-4456-8E48-4F7842F6AEB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCDTests", "GCDTests\GCDTests.csproj", "{9DB5E6C1-E306-4EC7-8DA7-70B9731E81D6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{70748DDC-7FCE-4456-8E48-4F7842F6AEB3} = {70748DDC-7FCE-4456-8E48-4F7842F6AEB3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70748DDC-7FCE-4456-8E48-4F7842F6AEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70748DDC-7FCE-4456-8E48-4F7842F6AEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70748DDC-7FCE-4456-8E48-4F7842F6AEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70748DDC-7FCE-4456-8E48-4F7842F6AEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB5E6C1-E306-4EC7-8DA7-70B9731E81D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB5E6C1-E306-4EC7-8DA7-70B9731E81D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB5E6C1-E306-4EC7-8DA7-70B9731E81D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB5E6C1-E306-4EC7-8DA7-70B9731E81D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16F076DC-AFA6-43A8-B54D-0A292C43B416}
+	EndGlobalSection
+EndGlobal
